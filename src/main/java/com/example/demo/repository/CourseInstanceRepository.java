@@ -11,8 +11,6 @@ public interface CourseInstanceRepository extends JpaRepository<Course, Long> {
 
 	List<CourseInstance> findByYearAndSemester(int year, int semester);
 
-
-
 	}
 
 

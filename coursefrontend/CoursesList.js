@@ -6,7 +6,7 @@ const CoursesList = () => {
 
   useEffect(() => {
     // Fetch the list of courses from the Spring Boot API
-    fetch('/api/courses')
+    fetch('/api/courseApi')
       .then((response) => response.json())
       .then((data) => setCourses(data))
       .catch((error) => console.error('Error fetching courses:', error));
